@@ -31,39 +31,29 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-.login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.login input {
-    background-color: antiquewhite;
-    font-size: 35px;
-    margin: 5px 0;
-    border: 1px solid #ACACAC;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-.login h2 {
-    font-size: 60px;
-    margin: 25px 0;
-}
-
-.login-check {
+.back {
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.login-check a {
+.back a {
     color: black;
     text-decoration: none;
     border: 1px solid #ACACAC;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 35px;
+}
+.bad-login h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+    margin: 25px 0;
 }
 .copyright {
     display: flex;
