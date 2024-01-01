@@ -2,19 +2,15 @@
     padding: 0;
     margin: 0;
 }
-header {
+head {
     background-color: #231C1A;
-    height: 80px;
+    height: 100px;
     width: 100%;
 }
 body {
-    font-size: 25px;
-}
-.copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: black;
-    font-size: 25px;
+    font-size: 30px;
 }
